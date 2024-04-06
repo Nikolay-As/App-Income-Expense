@@ -1,0 +1,35 @@
+{
+  "name": "app-income-expense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon .",
+    "start": "start ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikolay-As/App-Income-Expense.git"
+  },
+  "author": "Nikolay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolay-As/App-Income-Expense/issues"
+  },
+  "homepage": "https://github.com/Nikolay-As/App-Income-Expense#readme",
+  "dependencies": {
+    "mysql2": "^3.9.3",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^8.57.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.0.0"
+  }
+}
